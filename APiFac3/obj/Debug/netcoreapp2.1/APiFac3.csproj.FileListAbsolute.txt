@@ -1,0 +1,14 @@
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.csproj.CoreCompileInputs.cache
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.RazorAssemblyInfo.cache
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.RazorAssemblyInfo.cs
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.AssemblyInfoInputs.cache
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.AssemblyInfo.cs
+C:\Users\elang\source\repos\APiFac3\APiFac3\bin\Debug\netcoreapp2.1\APiFac3.deps.json
+C:\Users\elang\source\repos\APiFac3\APiFac3\bin\Debug\netcoreapp2.1\APiFac3.runtimeconfig.json
+C:\Users\elang\source\repos\APiFac3\APiFac3\bin\Debug\netcoreapp2.1\APiFac3.runtimeconfig.dev.json
+C:\Users\elang\source\repos\APiFac3\APiFac3\bin\Debug\netcoreapp2.1\APiFac3.dll
+C:\Users\elang\source\repos\APiFac3\APiFac3\bin\Debug\netcoreapp2.1\APiFac3.pdb
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.RazorTargetAssemblyInfo.cache
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.dll
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.pdb
+C:\Users\elang\source\repos\APiFac3\APiFac3\obj\Debug\netcoreapp2.1\APiFac3.csprojAssemblyReference.cache
