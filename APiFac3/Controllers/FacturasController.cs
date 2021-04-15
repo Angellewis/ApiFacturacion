@@ -24,7 +24,23 @@ namespace APiFac3.Controllers
         [HttpGet]
         public IEnumerable<Facturas> GetFacturas()
         {
-            return _context.Facturas.Include(c=>c.clientes).Include(v=>v.vendedores);
+            return _context.Facturas.Include(c => c.clientes).Include(v => v.vendedores);
+        }
+
+        //GET: api/Facturas/getAsientosnotnull
+        [HttpGet("getAsientosnotnull")]
+        public IEnumerable<Facturas> getAsientosnotnull()
+        {
+            var facturaList = _context.Facturas.Where(f => f.Asiento != null);
+            return facturaList;
+        }
+
+        //GET: api/Facturas/getAsientos
+        [HttpGet("getAsientos")]
+        public IEnumerable<Facturas> getAsientos()
+        {
+            var facturaList = _context.Facturas.Where(f => f.Asiento == null);
+            return facturaList;
         }
 
         // GET: api/Facturas/5
@@ -37,9 +53,9 @@ namespace APiFac3.Controllers
             }
 
             var facturas = _context.Facturas
-                .Include(c=>c.clientes)
-                .Include(v=>v.vendedores)
-                .FirstOrDefault(x=>x.Id == id);
+                .Include(c => c.clientes)
+                .Include(v => v.vendedores)
+                .FirstOrDefault(x => x.Id == id);
 
             if (facturas == null)
             {

@@ -105,6 +105,8 @@ namespace APiFac3.Models
 
         public double Precio_Total { get; set; }
 
+        public int? Asiento { get; set; }
+
     }
 
     public class Detalle

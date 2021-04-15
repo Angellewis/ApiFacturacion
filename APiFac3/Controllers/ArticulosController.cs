@@ -29,6 +29,16 @@ namespace APiFac3.Controllers
             return _context.Articulos;
         }
 
+        //GET: api/Articulos/getArticuloStock
+        [HttpGet("getArticuloStock")]
+        public async Task<IActionResult> getArticuloStock()
+        {
+            var stockList = await _context.Articulos.ToListAsync();
+            var stockTotal = 0.0;
+            stockList.ForEach(item => stockTotal += item.Stock);
+            return Ok(stockTotal);
+        }
+
         // GET: api/Articulos/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetArticulos([FromRoute] int id)
